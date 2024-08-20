@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import IngredientForm from "./components/IngredientForm";
 import RecipeList from "./components/RecipeList";
+import "./globals.css";
+
 
 function App() {
   const [recipes, setRecipes] = useState([]);
