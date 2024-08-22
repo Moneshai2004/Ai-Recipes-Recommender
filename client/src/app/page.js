@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import Navbar from "./components/Navbar";
 import IngredientForm from "./components/IngredientForm";
 import RecipeList from "./components/RecipeList";
 import "./globals.css";
-
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div className="relative overflow-hidden h-screen">
+      <Navbar /> {/* Include Navbar here */}
       <video
         autoPlay
         loop
