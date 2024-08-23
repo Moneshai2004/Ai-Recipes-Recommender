@@ -15,7 +15,7 @@ function RecipeList({ recipes }) {
           ))}
         </ul>
       )}
-    </div>
+    </div>  
   );
 }
 

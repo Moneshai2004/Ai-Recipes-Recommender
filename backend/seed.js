@@ -11,8 +11,9 @@ const recipes = [
     name: "Idli",
     ingredients: ["rice", "urad dal", "water", "salt"],
     instructions:
-      "Soak rice and urad dal, grind to a batter, ferment overnight, and steam in idli molds.",
+      "1. Soak rice and urad dal separately in water for 4-6 hours. 2. Grind soaked rice and urad dal separately to a smooth batter. 3. Mix both batters together, add salt, and allow it to ferment overnight. 4. Grease idli molds with oil and pour batter into the molds. 5. Steam in an idli cooker or steamer for 10-15 minutes until a toothpick inserted comes out clean. 6. Serve hot with chutney and sambar.",
   },
+
   {
     name: "Dosa",
     ingredients: ["rice", "urad dal", "fenugreek seeds", "salt", "oil"],
