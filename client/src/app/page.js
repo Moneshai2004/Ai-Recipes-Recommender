@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="relative overflow-hidden h-screen">
-      <Navbar /> {/* Include Navbar here */}
+      <Navbar />
       <video
         autoPlay
         loop
@@ -31,7 +31,7 @@ function App() {
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
-        <h1 className="text-3xl font-bold text-cyan-500 mb-4">
+        <h1 className=" pt-5 text-3xl font-bold text-cyan-500 mb-4">
           Recipe Recommender
         </h1>
         <IngredientForm onSubmit={handleSubmit} />
