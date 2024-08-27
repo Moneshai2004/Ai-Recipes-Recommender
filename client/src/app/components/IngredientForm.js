@@ -10,14 +10,14 @@ function IngredientForm({ onSubmit }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-4">
+    <form onSubmit={handleSubmit} className="p-4 pt-5">
       <textarea
         value={ingredients}
         onChange={(e) => setIngredients(e.target.value)}
         placeholder="Enter ingredients, separated by commas"
         className="w-full p-2 border rounded text-black"
       />
-      <button type="submit" className="mt-2 p-2 bg-blue-500 text-white rounded">
+      <button type="submit" className="mt-2  p-2 bg-blue-500 text-white rounded">
         Find Recipes
       </button>
     </form>
