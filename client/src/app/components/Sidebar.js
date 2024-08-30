@@ -5,7 +5,7 @@ export default function Sidebar() {
   // State to manage sidebar visibility
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to handle sidebar toggle
+  // Function to https://mail.google.com/mail/u/0?ui=2&ik=7ad6bebb67&attid=0.2&permmsgid=msg-f:1808712629623806901&th=1919d68dbd7d5bb5&view=att&disp=safe&realattid=f_m0f2fa182handle sidebar toggle
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
